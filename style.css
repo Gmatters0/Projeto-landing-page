@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+}
+
+/* MENU SUPERIOR */
+#menusup{
+    background-image: url(/imagens/background-menusup.svg);
+    color: white;
+}
+#logo{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#titulomenusup{
+    margin-left: 125px;
+    margin-top: 50px;
+}
+#textomenusup{
+    margin-left: 125px;
+    margin-top: 30px;
+    padding-bottom: 100px;
+}
+
+/* MENU INFORMACIONAL */
+#menuinformacional{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    font-size: 15px;
+}
+.icone{
+    margin: 50px 0px 50px 100px;
+    padding: 15px;
+}
+.textoinformativo{
+    display: flex;
+    align-items: center;
+}
+
+/* SEÇÃO VÍDEO */
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+#titulovideo{
+    color: #247BA0;
+    margin-top: 50px;
+}
+#video{
+    margin: 50px 25px 50px 100px;
+}
+
+/* SEÇÃO CARROSSEL */
+#carrosel{
+    background-color: #247BA0;
+    padding: 50px;
+}
+#titulocarrossel{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin: 10px;
+}
+#divcards{
+    margin-top: 55px;
+    display: grid;
+    grid-auto-flow: column;
+}
+.card{
+    margin-left: 50px;
+}
+#setaesquerda{
+    display: none;
+}
+#samantha{
+    display: none;
+}
+#setadireita{
+    margin-left: 30px;
+}
+.seta{
+    margin-top: 40px;
+    cursor: pointer;
+}
+.seta:hover{
+    transform: scale(110%);
+    transition-duration: 0.5s;
+}
+
+/* SEÇÃO FORMULÁRIO */
+#formulario{
+    text-align: center;
+}
+
+#tituloformulario{
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+button{
+    width: 250px;
+    height: 40px;
+    background-color: #247BA0;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    border: 0px;
+    border-radius: 5px;
+    padding: 8px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(105%);
+    transition-duration: 0.5s;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #03182098; 
+}

@@ -2,4 +2,5 @@
 Projeto de desenvolvimento do módulo base do curso Front-End da Escola DNC
 
 Site: https://landing-page-1-project.netlify.app/
-Planilha de dados: https://docs.google.com/spreadsheets/d/1N0tCit3C1v8IVW8VLmcwsu1b7FqZpNhTbKruc-l63ho/edit#gid=0
+
+Dados: https://docs.google.com/spreadsheets/d/1N0tCit3C1v8IVW8VLmcwsu1b7FqZpNhTbKruc-l63ho/edit#gid=0
